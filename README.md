@@ -1,2 +1,6 @@
-# go-tdd
-In this project I will explore test driven development in go-lang
+# timezone
+
+This go module can locate timezone for a city.
+
+
+## usage
