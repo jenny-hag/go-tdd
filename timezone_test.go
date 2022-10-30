@@ -5,7 +5,7 @@ import (
     "regexp"
 )
 
-// TestHelloName calls greetings.Hello with a name, checking
+// TestGetTimezone calls timezone.GetTimezone with country & city, checking
 // for a valid return value.
 func TestGetTimezone(t *testing.T) {
     want := regexp.MustCompile("CST")
